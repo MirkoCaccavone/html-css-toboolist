@@ -15,14 +15,19 @@ header {
 }
 
 header>img {
-    width: 60px;
-    line-height: 60px;
+    width: 55px;
+    height: 55px;
+    line-height: 100%;
     vertical-align: middle;
 }
 
 header>span {
-    font-size: 45px;
+    font-size: 55px;
     font-weight: bold;
+    line-height: 100%;
+    vertical-align: middle;
+ 
+
 }
 
 /* css main */
@@ -71,18 +76,20 @@ header>span {
     margin: 10px;
 }
 
+/* cerchio verde  */
 .correct::before {
     content: "\2713";
-    font-size: 9px;
+    font-size: 7px;
     color: green;
     border: 2px solid green;
     border-radius: 50%;
-    padding: 3px;
+    padding: 3px 3px;
 }
 
+/* cerchio rosso */
 .incorrect::before {
     content: "\2715";
-    font-size: 9px;
+    font-size: 7px;
     color: red;
     border: 2px solid red;
     border-radius: 50%;
